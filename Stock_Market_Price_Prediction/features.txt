@@ -1,0 +1,37 @@
+Technical Features: derived directly from historical price and volume
+
+1. OHLC (Open High Low Close)
+2. Volume
+3. Returns: Shows growth or decline
+4. Moving Average (MA, EMA): Average price over the time (10-day or 30-day)
+5. RSI (Relative Strength Index)
+6. MACD (Moving Average Convergence Divergence) It is the differences of EMAs
+7. ROC (Rate of Change) or momentum
+8. Volitality (Standard deviation of returns) it measures uncertainity
+
+
+Fundamentals:-
+1. ESP: Earning Per Share (Profit per share)
+2. PE Ratio: Price to Earning Ratio (Valuation measures)
+3. PB Ratio: Price to Book Ratio (Asset based valuation)
+4. ROE: Return on Equity Ratio(Profitability measure)
+5. Revenue Growth (Performance Indicator)
+6. Dividend Yield (Returns to investors)
+7. Debt to Equity Ratio: Leverage
+
+
+Macroeconomic and Sentimental Features
+1. Market Indices: (NIFTY, SENSEX, etc)
+2. Economic factors: like interest rates, inflation, GDP growth
+3. Crude oil and Gold prices
+4. Exchange Rates (USD/INR)
+5. News sentiments
+6. Market Inflow outflow
+
+
+
+
+
+
+
+

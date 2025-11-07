@@ -1,0 +1,51 @@
+Project Title: Stock market price prediction using machine learning
+
+Objective: To develop a machine learning-based system that predicts future stock prices using historical data and visualizes stock performance trends.
+
+Problem Statement:-
+Stock prices are highly volatile and influenced by multiple factors such as news, economy, company performance, and market trends and predicting them manually is difficult. 
+This project aims to use machine learning models (like Linear Regression, LSTM, or Random Forest) to predict the next-day closing price of a stock based on its historical data.
+
+
+Programming Language: Python
+
+Libraries:
+pandas, numpy – data processing
+matplotlib, seaborn – data visualization
+scikit-learn – ML algorithms
+keras / tensorflow – for deep learning (optional)
+yfinance or alpha_vantage – to fetch real stock data
+
+Database (optional): MySQL or SQLite
+Frontend (optional): Streamlit / Flask web interface
+
+Methodology(steps):
+
+Step1: Data collection : Fetch historical stock prices (Open, High, Low, Close, Volume)
+
+Step2: Data preprocessing:-
+(i) Handle missing values
+(ii) Normalize Scale
+(iii) Convert dates and set as index
+
+Step3: Feature Scaling:-
+(i) Create additional features (like moving average, RSI, etc)
+(ii) Split dataset into training and testing sets
+
+Step4: Model Selection
+(i) Start with Linear Regression/ Random Forest for baseling
+
+
+Step5: Model Training and Testing
+(i) Train model using historical data 
+(ii) Evaluate using metrices like MSE, RMSE, R2 score, etc
+
+Step6: Prediction and Visualization
+(i) Predicts future stock prices
+(ii) Plot actual vs predicted prices
+(iii) Display with a sample(like streamlit dashboard)
+
+step7: Compare models and discuss accuracy and timelines
+
+
+
