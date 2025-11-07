@@ -13,17 +13,17 @@ from sklearn.preprocessing import MinMaxScaler
 # Replace this with your actual model path
 import pickle
 
-with open('Project-Stock_Market/model1.pkl', 'rb') as f:
+with open('Stock_Market_Price_Prediction/model1.pkl', 'rb') as f:
     data = pickle.load(f)
 
 model = data['model']
 
-with open('Project-Stock_Market/scaler.pkl', 'rb') as f:
+with open('Stock_Market_Price_Prediction/scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 # scaler = data['scaler']
 
 # Now you can use the scaler and model for predictions
-with open('Project-Stock_Market/X_Test.pkl', 'rb') as f:
+with open('Stock_Market_Price_Prediction/X_Test.pkl', 'rb') as f:
     X_scaled = pickle.load(f)
  
 y_pred = model.predict(X_scaled)
