@@ -31,6 +31,16 @@ Macroeconomic and Sentimental Features
 
 
 
+SMA (Simple Moving Average): derived using rolling() and mean() function
+EMA (Exponential Moving Average): derived using ewm() and mean() function
+RSI (Relative Strength Index): using formula: RSI = (100 - (100/1 +rs))
+MACD (Moving Average Convergence Divergence) : To identify trend strength
+ROC (Rate of Change): ROC =[ P(today) - P(n_days_ago) ]/ P(n_days_ago) * 100
+
+
+
+
+
 
 
 
